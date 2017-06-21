@@ -14,5 +14,13 @@
     "path": "^0.12.7",
     "string": "^3.3.3"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mugendi/wordize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mugendi/wordize/issues"
+  },
+  "homepage": "https://github.com/mugendi/wordize#readme"
 }
