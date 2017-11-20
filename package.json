@@ -1,26 +1,91 @@
 {
-  "name": "wordize",
-  "version": "1.0.0",
-  "description": "Use Consonant Blends to tokenize sentences into words. Works for words like 'freakingmale' which fall through other tokenizers.",
-  "main": "lib/split-words.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_args": [
+    [
+      {
+        "raw": "wordize",
+        "scope": null,
+        "escapedName": "wordize",
+        "name": "wordize",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "E:\\projects\\Node\\tests\\wordize-test"
+    ]
+  ],
+  "_from": "wordize@latest",
+  "_id": "wordize@1.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/wordize",
+  "_nodeVersion": "6.9.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/wordize-1.0.0.tgz_1498035409603_0.17451014555990696"
   },
-  "keywords": [],
-  "author": "Anthony Mugendi <ngurumugz@gmail.com>",
-  "license": "MIT",
+  "_npmUser": {
+    "name": "nguru",
+    "email": "ngurumugz@gmail.com"
+  },
+  "_npmVersion": "3.10.6",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "wordize",
+    "scope": null,
+    "escapedName": "wordize",
+    "name": "wordize",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/wordize/-/wordize-1.0.0.tgz",
+  "_shasum": "6f764d48e822237f4fdc3f5742819ca417a1ad5e",
+  "_shrinkwrap": null,
+  "_spec": "wordize",
+  "_where": "E:\\projects\\Node\\tests\\wordize-test",
+  "author": {
+    "name": "Anthony Mugendi",
+    "email": "ngurumugz@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/mugendi/wordize/issues"
+  },
   "dependencies": {
     "lodash": "^4.17.4",
     "path": "^0.12.7",
     "string": "^3.3.3"
   },
+  "description": "Use Consonant Blends to tokenize sentences into words. Works for words like 'freakingmale' which fall through other tokenizers.",
   "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "6f764d48e822237f4fdc3f5742819ca417a1ad5e",
+    "tarball": "https://registry.npmjs.org/wordize/-/wordize-1.0.0.tgz"
+  },
+  "gitHead": "2e4df6e4e89607f6421bc1f3db05b866b3270ace",
+  "homepage": "https://github.com/mugendi/wordize#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "nguru",
+      "email": "ngurumugz@gmail.com"
+    }
+  ],
+  "name": "wordize",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mugendi/wordize.git"
   },
-  "bugs": {
-    "url": "https://github.com/mugendi/wordize/issues"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/mugendi/wordize#readme"
+  "version": "1.0.0"
 }
