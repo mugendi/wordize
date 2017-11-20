@@ -2,7 +2,7 @@
   "name": "wordize",
   "version": "1.0.0",
   "description": "Use Consonant Blends to tokenize sentences into words. Works for words like 'freakingmale' which fall through other tokenizers.",
-  "main": "index.js",
+  "main": "lib/split-words.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
