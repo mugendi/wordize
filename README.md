@@ -1,10 +1,10 @@
 
 # For when tokenizers fail!
-Have you tried to tokenize a sentence with combined words like ```'tokenizerFail'```? Well, that is easy because the words use *camel case*. But how about ```tokenizerfail```? I'm sure you see the trouble encounter tokenizing these!
+Have you tried to tokenize a sentence with combined words like ```'tokenizerFail'```? Well, that is easy because the words use *camel case*. But how about ```tokenizerfail```? I'm sure you see the trouble you encounter tokenizing such words!
 
 Unfortunately, with the advent of social media, these kind of 'compounded' words are much more common (especially with hashtags).
 
-These package uses the concept of known **consonant blends** to attempt and discover & hence tokenize/humanize such words. It is not perfect (I'm looking for other methods to enhance it) but gets you closer to perfect tokenization.
+This package uses the concept of known **consonant blends** to attempt and discover word boundaries & hence tokenize/humanize such words. It is not perfect (I'm looking for other methods to enhance it) but gets you closer to perfect tokenization.
 
 ## Adopt for your language
 Don't speak English? Go to the ```./lang``` folder and create consonant blends for your language (check out ```./lang/en.json```).
